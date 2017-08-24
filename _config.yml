@@ -5,7 +5,7 @@ permalink:      /:year-:month-:day/:title
 title:          Tale
 paginate:       5
 baseurl:        ""
-url:            "https://ryyang.github.io/"
+url:            "https://chesterhow.github.io/tale"
 
 # Assets
 sass:
@@ -14,6 +14,17 @@ sass:
 
 # Build settings
 markdown:       kramdown
+
+# About
+author:
+  name:         Chester How
+  url:          http://chester.how
+  email:        chesterhow@gmail.com
+
+# Custom vars
+version:        3.4.1
+github:
+  repo:         https://github.com/chesterhow/tale
 
 # Gems
 gems:
