@@ -2,6 +2,7 @@
 
 [淘宝平滑滚动](https://ryyang.github.io/ProjectCollection/Picture/taobao/)<br/>
 [京东淡入淡出](https://ryyang.github.io/ProjectCollection/Picture/jd/)<br/>
+[Bootstrap滚动](https://ryyang.github.io/ProjectCollection/Picture/bootstrap/)<br/>
 
 Canvas项目
 
