@@ -8,9 +8,9 @@ title: Home
     <div>
     <a href="{{ post.url | prepend: site.url }}" class="catalogue-item">
       <div>
-        <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%m %d, %Y" }}</time>
+        <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%Y-%m- %d" }}</time>
         <h5 class="catalogue-title">{{ post.title }}</h5>
-        <!--<div class="catalogue-line"></div>-->
+        <div class="catalogue-line"></div>
     	<!--<p>
           {{ post.content | truncatewords: 30 | strip_html }}
         </p>   --> 
