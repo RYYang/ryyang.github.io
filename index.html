@@ -8,15 +8,11 @@ title: Home
     <a href="{{ post.url | prepend: site.url }}" class="catalogue-item">
       <div>
         <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
-        <h1 class="catalogue-title">{{ post.title }}</h1>
-        <div class="catalogue-line"></div>
-
-    <!--<p>
+        <h3 class="catalogue-title">{{ post.title }}</h3>
+        <!--<div class="catalogue-line"></div>-->
+    	<!--<p>
           {{ post.content | truncatewords: 30 | strip_html }}
-        </p>   -->
-        <p>
-          {{ post.content | truncatewords: 0 | strip_html }}
-        </p> 
+        </p>   --> 
       </div>
     </a>
   {% endfor %}
