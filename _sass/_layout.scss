@@ -45,7 +45,7 @@ footer,
   li {
     @include transition(all .2s ease-out);
     color: $default-color;
-    display: inline-block;
+    display: block;
     opacity: .6;
     padding: 0 1rem 0 0;
 
@@ -65,7 +65,7 @@ footer,
   }
 }
 
-@media (min-width: 3000px) {
+@media (min-width: 600px) {
   .nav {
     &-container {
       text-align: left;
