@@ -3,23 +3,22 @@ layout: default
 title: Home
 ---
 
-<div class="catalogue">
+<div class="catalogue"><table>
   {% for post in paginator.posts %}
-    <div>
-    <h5 style="float: left;"
-    <a href="{{ post.url | prepend: site.url }}" class="catalogue-item"> 
-         class="catalogue-title">{{ post.title }}
+    <tr>
+    <td><a href="{{ post.url | prepend: site.url }}" class="catalogue-item"> 
+         <h5 >class="catalogue-title">{{ post.title }}</h5>
 
         <!--<div class="catalogue-line"></div>
     	<p>
           {{ post.content | truncatewords: 30 | strip_html }}
         </p>   --> 
-    </a>
-    </h5>
-    <time style="float:right;"datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%Y-%m-%d" }}</time>
-   </div>
+    </a></td>
+    
+    <td><time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%Y-%m-%d" }}</time></td>
+   </tr>
   {% endfor %}
-</div>
+</table></div>
 
 <div class="pagination">
   {% if paginator.previous_page %}
